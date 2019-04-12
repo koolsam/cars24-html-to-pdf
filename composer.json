@@ -13,13 +13,13 @@
     ],
    "require": {
         "php": ">=5.0.0",
-        "cars24/php-tmpfile": "^1.0.0",
-        "cars24/php-shellcommand": "^1.0.2"
+        "cars24/php-tmpfile": "*",
+        "cars24/php-shellcommand": "*"
     },
 
     "autoload": {
         "psr-4": {
-            "wk_html_to\\": "src/"
+            "cars24\\wkhtmlto\\": "src/"
         }
     },
     "extra": {
