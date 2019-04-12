@@ -1,7 +1,7 @@
 <?php
-namespace mikehaertl\wkhtmlto;
+namespace cars24\wkhtmlto;
 
-use mikehaertl\tmp\File;
+use cars24\tmp\File;
 
 /**
  * Pdf

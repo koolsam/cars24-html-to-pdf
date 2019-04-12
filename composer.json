@@ -1,5 +1,5 @@
 {
-    "name": "mikehaertl/phpwkhtmltopdf",
+    "name": "cars24/phpwkhtmltopdf",
     "description": "A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
     "keywords": ["pdf", "wkhtmltopdf", "wkhtmltoimage" ],
     "homepage": "http://mikehaertl.github.com/phpwkhtmltopdf/",
@@ -7,18 +7,19 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Michael Haertl",
-            "email": "haertl.mike@gmail.com"
+            "name": "Sandeepa Rajoriya",
+            "email": "sandeepa.rajoriya@cars24.com"
         }
     ],
-    "require": {
+   "require": {
         "php": ">=5.0.0",
-        "mikehaertl/php-tmpfile": "^1.0.0",
-        "mikehaertl/php-shellcommand": "^1.0.2"
+        "cars24/php-tmpfile": "^1.0.0",
+        "cars24/php-shellcommand": "^1.0.2"
     },
+
     "autoload": {
         "psr-4": {
-            "mikehaertl\\wkhtmlto\\": "src/"
+            "wk_html_to\\": "src/"
         }
     },
     "extra": {

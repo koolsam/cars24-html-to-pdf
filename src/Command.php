@@ -1,7 +1,7 @@
 <?php
-namespace mikehaertl\wkhtmlto;
+namespace cars24\wkhtmlto;
 
-use mikehaertl\shellcommand\Command as BaseCommand;
+use cars24\shellcommand\Command as BaseCommand;
 
 /**
  * Command
